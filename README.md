@@ -14,3 +14,6 @@ Una vez descargado se abre el proyecto mediante dicho programa. Antes de ejecuta
 Se abre la única clase que hay "Principal" y se ven dos comentarios al lado de unas líneas de código, ahí se modifica el nombre del primer fichero a comparar y del segundo fichero (al cual se le añade el valor hexadecimal y se genera el digest en MD5).
 
 Tras ajustar estos parámetros, se ejecuta el programa, y en la consola escribirá **True** si el segundo fichero es igual al primero y su digest MD5 comienza por un 0; o **False** en caso de que no se cumplan estas condiciones.
+
+## Uso de SHA-256
+Para generar el digest mediante SHA-256 solo hay que modificar la primera línea del método "digestEmpezandoPor0s", donde pone MD5 cambiarlo y escribir SHA-256.
