@@ -19,7 +19,7 @@ public class Principal {
 
     private static boolean compararArchivos(String path1, String path2) throws NoSuchAlgorithmException, IOException{
         MessageDigest md5Digest = MessageDigest.getInstance("MD5");
-        String hx = "\n" + hexadecimalAleatorio(8);
+        String hx = "\n" + hexadecimalAleatorio(8); // El valor hexadecimal a modificar si se quiere hacer "valor + Gxxxx"
 
         boolean empieza0 = false;
 
