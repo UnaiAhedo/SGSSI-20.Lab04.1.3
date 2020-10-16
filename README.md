@@ -17,3 +17,6 @@ Tras ajustar estos parámetros, se ejecuta el programa, y en la consola escribir
 
 ## Uso de SHA-256
 Para generar el digest mediante SHA-256 solo hay que modificar la primera línea del método "digestEmpezandoPor0s", donde pone MD5 cambiarlo y escribir SHA-256.
+
+## Licencia
+Este programa está protegido bajo la licencia "GPL-3.0 License".
